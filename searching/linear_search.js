@@ -9,5 +9,6 @@ function linear_search(arr, target) {
   return NaN;
 }
 
-const result = linear_search([8, 12, 7, 5, 1, 23], 28);
+var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+var result = linear_search(numbers, 9);
 console.log(result);
