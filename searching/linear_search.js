@@ -12,3 +12,8 @@ function linear_search(arr, target) {
 var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
 var result = linear_search(numbers, 9);
 console.log(result);
+
+/**
+ * Time complexity: O(n)
+ * Space complexity: O(1)
+ */
